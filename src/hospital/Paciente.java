@@ -22,12 +22,17 @@ public class Paciente extends Pessoa {
     private String observacoes;
 
     public Paciente(){
+        System.out.println("Paciente sem parametro");
         tipoSanguineo = "O-";
     }
     
     public Paciente(String nome){
+        System.out.println("Paciente com parametro");
         this.setNome(nome);
     }
+    
+    
+    
     
     public String getTipoSanguineo() {
         return tipoSanguineo;
