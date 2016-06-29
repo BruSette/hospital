@@ -69,5 +69,9 @@ public class Paciente extends Pessoa {
         this.observacoes = observacoes;
     }
     
+    @Override
+    public String toString() {
+        return "Paciente:" + getNome();
+    }
     
 }
