@@ -21,6 +21,14 @@ public class Paciente extends Pessoa {
     private String historico;
     private String observacoes;
 
+    public Paciente(){
+        tipoSanguineo = "O-";
+    }
+    
+    public Paciente(String nome){
+        this.setNome(nome);
+    }
+    
     public String getTipoSanguineo() {
         return tipoSanguineo;
     }
@@ -69,7 +77,7 @@ public class Paciente extends Pessoa {
         this.observacoes = observacoes;
     }
     
-    @Override
+    
     public String toString() {
         return "Paciente:" + getNome();
     }

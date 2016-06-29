@@ -21,7 +21,7 @@ public class Funcionario extends Pessoa {
         this.funcao = funcao;
     }
 
-    @Override
+    
     public String toString() {
         return "Funcionário:" + getNome();
     }

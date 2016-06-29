@@ -38,13 +38,6 @@ public class Main {
         for (int i = 0; i < pessoas.length; i++) {
             pessoa = pessoas[i];
             System.out.println(pessoa.toString());
-            
-            
-            if (pessoa instanceof Paciente) {
-                Paciente paciente2 = (Paciente) pessoas[i];
-                //System.out.println(paciente2.getTipoSanguineo());
-            }
-
         }
 
     }
