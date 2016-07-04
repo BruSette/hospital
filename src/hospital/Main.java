@@ -16,30 +16,21 @@ public class Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Pessoa[] pessoas = new Pessoa[3];
-
-        Paciente paciente = new Paciente();
-        paciente.setNome("Maicon");
-
-        pessoas[0] = paciente;
-
-        Funcionario funcionario = new Funcionario();
-        funcionario.setNome("João");
-
-        pessoas[1] = funcionario;
-
-        Medico medico = new Medico();
-        medico.setNome("Klauss");
-
-        pessoas[2] = medico;
-
-        Pessoa pessoa;
-
-        for (int i = 0; i < pessoas.length; i++) {
-            pessoa = pessoas[i];
-            System.out.println(pessoa.toString());
-        }
-
+       Main m = new Main();
+       A x = new B();
+       m.imprime(x);
+      
     }
-
+    
+    public void imprime(A x){
+        System.out.println("Metodo A");
+        x.faz();
+    }
+    
+    public void imprime(B x){
+        System.out.println("Metodo B");
+        x.faz();
+    }
+    
+    
 }
