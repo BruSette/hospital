@@ -3,6 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
 package hospital;
 
 /**
@@ -10,7 +11,7 @@ package hospital;
  * @author raphael
  */
 public class Funcionario extends Pessoa {
-
+    
     private String funcao;
 
     public String getFuncao() {
@@ -20,10 +21,8 @@ public class Funcionario extends Pessoa {
     public void setFuncao(String funcao) {
         this.funcao = funcao;
     }
-
     
-    public String toString() {
-        return "Funcionário:" + getNome();
+    public String toString(){
+        return "Funcionario:" + getNome();
     }
-
 }

@@ -3,16 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
 package hospital;
 
 /**
  *
- * @author aluno
+ * @author raphael
  */
 public class A {
     
     public void faz(){
-        System.out.println("Metodo faz da classe A");
+        System.out.println("Metodo 'faz' da classe A");
     }
     
 }

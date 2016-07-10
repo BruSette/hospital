@@ -16,21 +16,10 @@ public class Main {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-       Main m = new Main();
-       A x = new B();
-       m.imprime(x);
-      
+        
+        PrincipalJFrame tela = new PrincipalJFrame();
+        tela.setVisible(true);
+        
     }
-    
-    public void imprime(A x){
-        System.out.println("Metodo A");
-        x.faz();
-    }
-    
-    public void imprime(B x){
-        System.out.println("Metodo B");
-        x.faz();
-    }
-    
     
 }

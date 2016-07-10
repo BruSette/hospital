@@ -69,8 +69,7 @@ public class Medico extends Funcionario{
         this.nacionalidade = nacionalidade;
     }
     
-    
-    public String toString() {
-        return "Médico:" + getNome();
+    public String toString(){
+        return "Medico:"+getNome();
     }
 }

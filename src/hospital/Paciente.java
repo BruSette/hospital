@@ -21,19 +21,27 @@ public class Paciente extends Pessoa {
     private String historico;
     private String observacoes;
 
-    public Paciente(){
+    public Paciente() {
         System.out.println("Paciente sem parametro");
         tipoSanguineo = "O-";
     }
-    
-    public Paciente(String nome){
+
+    public Paciente(String nome) {
+        setNome(nome);
         System.out.println("Paciente com parametro");
-        this.setNome(nome);
+    }
+
+    public String getNome(boolean retorna) {
+        if (retorna) {
+            return super.getNome();
+        }
+        return null;
     }
     
-    
-    
-    
+    public boolean getNome(int a){
+        return true;
+    }
+
     public String getTipoSanguineo() {
         return tipoSanguineo;
     }
@@ -81,10 +89,8 @@ public class Paciente extends Pessoa {
     public void setObservacoes(String observacoes) {
         this.observacoes = observacoes;
     }
-    
-    
+
     public String toString() {
         return "Paciente:" + getNome();
     }
-    
 }

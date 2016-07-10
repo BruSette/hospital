@@ -3,7 +3,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package hospital;
 
 import java.util.Date;
@@ -13,7 +12,7 @@ import java.util.Date;
  * @author raphael
  */
 public class Pessoa {
-    
+
     private String nome;
     private String cpf;
     private String rg;
@@ -77,7 +76,5 @@ public class Pessoa {
     public void setSexo(char sexo) {
         this.sexo = sexo;
     }
-    
-    
-    
+
 }
